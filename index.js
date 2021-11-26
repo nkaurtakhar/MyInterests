@@ -32,14 +32,9 @@ function stopshow()
 
 function submit()
 {
-    var user = document.getElementById("user").value;
-    var area=document.getElementById("area").value;
-    var result=document.getElementById("result").value;
+          
+        result.innerHTML="Thank you for your feedback" ;
     
-    if(user=="" || area=="")
-{
-    result.innerHTML="Please fill all the fields" ;
-}
 
 
 }
